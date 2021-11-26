@@ -43,7 +43,7 @@ public class FileGenerator {
    }
    
 
-   public static void generateSortByKeyTestFile(int size){
+   public static void generateTestFile(int size){
     for(int i = 0; i < size; i ++){
         String key = generateRandomWord(10);
         String value = generateRandomWord(90);
@@ -98,7 +98,8 @@ public class FileGenerator {
 
     public static void main(String[] args){
         //for 10gb input 100 million
-        generateSortByKeyTestFile(100000000);
+        //generator file for the sort by key and shuffling experiments
+        generateTestFile(100000000);
 
         //for 5gb file input 5
         //generateKMeansTestFile(1);
