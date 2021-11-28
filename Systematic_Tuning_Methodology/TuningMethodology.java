@@ -23,14 +23,14 @@ public class TuningMethodology{
     //SORT BY KEY DATA 10 GB FILE 
     private static final int SORT_BY_KEY_DEFAULT_CONF_TIME_10GB_FILE = 169;
     private static int[][] SORT_BY_KEY_RESULTS_10GB_FILE;
-    private final static String SORT_BY_KEY_RESULTS_FILE_NAME_10GB_FILE = "SortByKeyData/10GBFILE/sortByKeyResultsData10gbFile.txt",
-    SORT_BY_KEY_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "SortByKeyData/10GBFILE/sortByKeyDescretizedResults10gbFile.txt";
+    private final static String SORT_BY_KEY_RESULTS_FILE_NAME_10GB_FILE = "SortByKey/SortByKeyData/10GBFILE/sortByKeyResultsData10gbFile.txt",
+    SORT_BY_KEY_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "SortByKey/SortByKeyData/10GBFILE/sortByKeyDescretizedResults10gbFile.txt";
  
     //SORT BY KEY DATA 1 GB FILE
     private static final int SORT_BY_KEY_DEFAULT_CONF_TIME_1GB_FILE = 38;
     private static int[][] SORT_BY_KEY_RESULTS_1GB_FILE;
-    private final static String SORT_BY_KEY_RESULTS_FILE_NAME_1GB_FILE = "SortByKeyData/1GBFILE/sortByKeyResultsData1gbFile.txt",
-    SORT_BY_KEY_DESCRETIZED_RESULTS_FILE_NAME_1GB_FILE = "SortByKeyData/1GBFILE/sortByKeyDescretizedResults1gbFile.txt";
+    private final static String SORT_BY_KEY_RESULTS_FILE_NAME_1GB_FILE = "SortByKey/SortByKeyData/1GBFILE/sortByKeyResultsData1gbFile.txt",
+    SORT_BY_KEY_DESCRETIZED_RESULTS_FILE_NAME_1GB_FILE = "SortByKey/SortByKeyData/1GBFILE/sortByKeyDescretizedResults1gbFile.txt";
      //---------------------------------------\\
 
 
@@ -41,14 +41,14 @@ public class TuningMethodology{
     //SHUFFLING DATA 10 GB FILE
     private static final int SHUFFLING_DEFAULT_CONF_TIME_10GB_FILE = 137;
     private static int[][] SHUFFLING_RESULTS_10GB_FILE;
-    private final static String SHUFFLING_RESULTS_FILE_NAME_10GB_FILE = "ShufflingData/10GBFILE/shufflingResultsData10gbFile.txt",
+    private final static String SHUFFLING_RESULTS_FILE_NAME_10GB_FILE = "Shuffling/ShufflingData/10GBFILE/shufflingResultsData10gbFile.txt",
     SHUFFLING_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "ShufflingData/10GBFILE/shufflingDescretizedResults10gbFile.txt";
 
      //SHUFFLING DATA 1 GB FILE
      private static final int SHUFFLING_DEFAULT_CONF_TIME_1GB_FILE = 15;
      private static int[][] SHUFFLING_RESULTS_1GB_FILE;
-     private final static String SHUFFLING_RESULTS_FILE_NAME_1GB_FILE = "ShufflingData/1GBFILE/shufflingResultsData1gbFile.txt",
-     SHUFFLING_DESCRETIZED_RESULTS_FILE_NAME_1GB_FILE = "ShufflingData/1GBFILE/shufflingDescretizedResults1gbFile.txt";
+     private final static String SHUFFLING_RESULTS_FILE_NAME_1GB_FILE = "Shuffling/ShufflingData/1GBFILE/shufflingResultsData1gbFile.txt",
+     SHUFFLING_DESCRETIZED_RESULTS_FILE_NAME_1GB_FILE = "Shuffling/ShufflingData/1GBFILE/shufflingDescretizedResults1gbFile.txt";
      //---------------------------------------\\
 
 
@@ -59,14 +59,14 @@ public class TuningMethodology{
     //KMEANS DATA 10 GB FILE
     private static final int KMEANS_DEFAULT_CONF_TIME_10GB_FILE = 146;
     private static int[][] KMEANS_RESULTS_10GB_FILE;
-    private final static String KMEANS_RESULTS_FILE_NAME_10GB_FILE = "KmeansData/10GBFILE/kmeansResultsData10gbFile.txt",
-    KMEANS_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "KmeansData/10GBFILE/kmeansDescretizedResults10gbFile.txt";
+    private final static String KMEANS_RESULTS_FILE_NAME_10GB_FILE = "KMeans/KmeansData/10GBFILE/kmeansResultsData10gbFile.txt",
+    KMEANS_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "KMeans/KmeansData/10GBFILE/kmeansDescretizedResults10gbFile.txt";
 
     //KMEANS DATA 1_5 GB FILE
     private static final int KMEANS_DEFAULT_CONF_TIME_1_5GB_FILE = 38;
     private static int[][] KMEANS_RESULTS_1_5GB_FILE;
-    private final static String KMEANS_RESULTS_FILE_NAME_1_5GB_FILE = "KmeansData/1_5GBFILE/kmeansResultsData1_5gbFile.txt",
-    KMEANS_DESCRETIZED_RESULTS_FILE_NAME_1_5GB_FILE = "KmeansData/1_5GBFILE/kmeansDescretizedResults1_5gbFile.txt";
+    private final static String KMEANS_RESULTS_FILE_NAME_1_5GB_FILE = "KMeans/KmeansData/1_5GBFILE/kmeansResultsData1_5gbFile.txt",
+    KMEANS_DESCRETIZED_RESULTS_FILE_NAME_1_5GB_FILE = "KMeans/KmeansData/1_5GBFILE/kmeansDescretizedResults1_5gbFile.txt";
 
     
     //This set contains the discretized tables of the step 3 of the algorithm 1 of the systematic tuning methodology
