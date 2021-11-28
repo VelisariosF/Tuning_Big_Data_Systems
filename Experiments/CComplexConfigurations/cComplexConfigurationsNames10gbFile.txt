@@ -1,0 +1,8 @@
+spark.memory.storageFraction: 0.1, spark.shuffle.compress: false, 
+spark.memory.storageFraction: 0.3, spark.shuffle.file.buffer: 16k, 
+spark.memory.storageFraction: 0.1, spark.reducer.maxSizeInFlight: 72m, 
+spark.serializer.KryoSerializer, spark.memory.storageFraction: 0.7, spark.reducer.maxSizeInFlight: 72m, spark.shuffle.file.buffer: 16k, 
+spark.serializer.KryoSerializer, spark.reducer.maxSizeInFlight: 24m, 
+spark.memory.storageFraction: 0.1, spark.reducer.maxSizeInFlight: 24m, 
+spark.memory.storageFraction: 0.1, spark.shuffle.file.buffer: 16k, 
+spark.reducer.maxSizeInFlight: 24m, spark.shuffle.file.buffer: 16k, 
