@@ -42,7 +42,7 @@ public class TuningMethodology{
     private static final int SHUFFLING_DEFAULT_CONF_TIME_10GB_FILE = 137;
     private static int[][] SHUFFLING_RESULTS_10GB_FILE;
     private final static String SHUFFLING_RESULTS_FILE_NAME_10GB_FILE = "Shuffling/ShufflingData/10GBFILE/shufflingResultsData10gbFile.txt",
-    SHUFFLING_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "ShufflingData/10GBFILE/shufflingDescretizedResults10gbFile.txt";
+    SHUFFLING_DESCRETIZED_RESULTS_FILE_NAME_10GB_FILE = "Shuffling/ShufflingData/10GBFILE/shufflingDescretizedResults10gbFile.txt";
 
      //SHUFFLING DATA 1 GB FILE
      private static final int SHUFFLING_DEFAULT_CONF_TIME_1GB_FILE = 15;
