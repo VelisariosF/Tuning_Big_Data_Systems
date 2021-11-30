@@ -445,10 +445,10 @@ object LDA extends App {
 
       val startJobTime = System.nanoTime()
       val PATH = "/home/velisarios/Random Files/SearchEngineData/TestData/Lisa2/"
-      val conf = new SparkConf().setAppName(s"LDAExample").setMaster("local[*]").setAll(configurationsSet)
+      val conf = new SparkConf().setAppName(s"LDA").setMaster("local[*]").setAll(configurationsSet)
       val spark = SparkSession.builder().config(conf).getOrCreate()
       val sc = spark.sparkContext
-      val lda = new LDAExample(sc, spark)
+      val lda = new LDA(sc, spark)
       val defaultParams = Params().copy(input = PATH)
       lda.run(defaultParams)
 
