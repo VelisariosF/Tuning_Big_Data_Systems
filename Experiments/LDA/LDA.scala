@@ -30,7 +30,7 @@ case class Params(
                    checkpointDir: Option[String] = None,
                    checkpointInterval: Int = 10)
 
-class LDAExample(sc: SparkContext, spark: SparkSession) {
+class LDA(sc: SparkContext, spark: SparkSession) {
 
   def run(params: Params): Unit = {
 
