@@ -1,4 +1,4 @@
-package kmeans
+package ADNT
 
 import org.apache.spark.SparkConf
 import org.apache.spark.ml.{Pipeline, PipelineModel}
