@@ -6,6 +6,6 @@ Nowadays the big data phenomenon known as the exponential growth of the amount o
 
 
 # Contents
-This reporistory contains code of the experiments that were conducted in order to implement the new systemtic tuning methodology for the Apache Spark System.
+This reporistory contains code of the experiments that were conducted in order to implement the new systematic tuning methodology for the Apache Spark System.
 This new methodology was proposed to this thesis https://www.sciencedirect.com/science/article/pii/S2214579617300114.
 
